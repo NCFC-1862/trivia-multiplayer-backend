@@ -1,0 +1,15 @@
+{
+  "name": "trivia-multiplayer-backend",
+  "version": "1.0.0",
+  "description": "Backend for multiplayer trivia game",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "socket.io": "^4.0.1"
+  }
+}
